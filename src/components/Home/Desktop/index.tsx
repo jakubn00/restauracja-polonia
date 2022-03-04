@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../shared/NavBar";
+import AboutUsSection from "./AboutUsSection";
 import HeroSection from "./HeroSection";
 import { HomeDesktopPageContainer } from "./HomeDesktopPageElements";
 
@@ -32,6 +33,7 @@ const HomeDesktopPage: React.FC = () => {
       <HomeDesktopPageContainer>
         <Navbar isDarker={handleGetNavbarTheme()} />
         <HeroSection />
+        <AboutUsSection />
       </HomeDesktopPageContainer>
     </React.Fragment>
   );
