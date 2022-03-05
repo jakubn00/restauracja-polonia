@@ -3,6 +3,7 @@ import Navbar from "../../shared/NavBar";
 import AboutUsSection from "./AboutUsSection";
 import HeroSection from "./HeroSection";
 import { HomeDesktopPageContainer } from "./HomeDesktopPageElements";
+import OurOfferSection from "./OurOfferSection";
 
 const HomeDesktopPage: React.FC = () => {
   const [scrollPosition, setScrollPosition] = useState({
@@ -34,6 +35,7 @@ const HomeDesktopPage: React.FC = () => {
         <Navbar isDarker={handleGetNavbarTheme()} />
         <HeroSection />
         <AboutUsSection />
+        <OurOfferSection />
       </HomeDesktopPageContainer>
     </React.Fragment>
   );

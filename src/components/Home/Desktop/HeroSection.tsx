@@ -1,5 +1,6 @@
 import React from "react";
 import LargeButton from "../../shared/Buttons/LargeButton";
+import video from "../../../videos/hero-video.mp4";
 import {
   BackgroundVideo,
   ButtonGroup,
@@ -12,12 +13,7 @@ import {
 const HeroSection = () => {
   return (
     <HeroSectionContainer>
-      <BackgroundVideo
-        src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
-        loop
-        autoPlay
-        muted
-      ></BackgroundVideo>
+      <BackgroundVideo src={video} loop autoPlay muted></BackgroundVideo>
       <Header>
         <HeroHeader>
           Restauracja Polonia{" "}

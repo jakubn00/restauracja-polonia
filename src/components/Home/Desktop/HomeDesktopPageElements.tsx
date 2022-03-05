@@ -8,7 +8,7 @@ import { BODY, FUTURA_H1, FUTURA_H2 } from "../../../utils/fontSizes";
 
 export const HomeDesktopPageContainer = styled.div`
   width: 100%;
-  min-height: 2000px;
+  min-height: 4000px;
   background-color: ${LIGHT_BACKROUND_COLOR};
 `;
 
@@ -88,6 +88,9 @@ export const ButtonGroup = styled.div`
 export const AboutUsPicture = styled.img`
   width: 520px;
   border-radius: 8%;
+  -webkit-box-shadow: 0px 10px 24px 0px rgba(66, 68, 90, 0.8);
+  -moz-box-shadow: 0px 10px 24px 0px rgba(66, 68, 90, 0.8);
+  box-shadow: 0px 10px 10px 0px rgba(15, 15, 15, 0.3);
 `;
 
 export const AboutUsHeaderWrapper = styled.div`
@@ -106,4 +109,5 @@ export const AboutUsCaption = styled.p`
   font-family: "Lato", sans-serif;
   font-size: ${BODY};
   font-weight: 200;
+  margin-top: 12px;
 `;
