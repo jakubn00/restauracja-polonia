@@ -10,10 +10,11 @@ import saladPicture from "../../../../images/salad-picture.png";
 import soupPicture from "../../../../images/soup-picture.png";
 import dishPicture from "../../../../images/dish-picture.png";
 import dessertPicture from "../../../../images/dessert-picture.png";
+import LargeButton from "../../../shared/Buttons/LargeButton";
 
 const saladsDesc = "Zdrowe i smaczne. Zawsze ze świeżych warzyw.";
 const soupsDesc =
-  "Pyszne i rozgrzewające. Przygotowane ze składników najwyższej jakości";
+  "Pyszne i rozgrzewające. Przygotowane ze składników najwyższej jakości.";
 const dishesDesc = "Pożywne i apetyczne. Jak prawdziwe domowe obiady.";
 const dessertsDesc = "Słodkie i owocowe. Podane z kawą smakują najlepiej.";
 
@@ -41,6 +42,7 @@ const OurOfferSection = () => {
           picture={dessertPicture}
         />
       </OurOfferDishesContainer>
+      <LargeButton title="Zobacz nasze menu" primary />
     </OurOfferSectionContainer>
   );
 };

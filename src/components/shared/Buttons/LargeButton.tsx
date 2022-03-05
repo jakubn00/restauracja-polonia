@@ -9,10 +9,11 @@ import {
 import { BODY } from "../../../utils/fontSizes";
 
 const Button = styled.button<any>`
-  width: 275px;
+  width: ${(props) => `${props.customWidth}px`};
   height: 48px;
   border-radius: 8px;
   border: none;
+  margin-top: ${(props) => `${props.marginTop}px`};
   -webkit-box-shadow: 0px 14px 24px 0px rgba(66, 68, 90, 1);
   -moz-box-shadow: 0px 14px 24px 0px rgba(66, 68, 90, 1);
   box-shadow: 0px 10px 14px 0px rgba(15, 15, 15, 0.5);
@@ -32,12 +33,25 @@ const Button = styled.button<any>`
 interface IProps {
   primary?: boolean | number;
   title: string;
+  customWidth?: number;
+  marginTop?: number;
 }
 
-const LargeButton: React.FC<IProps> = ({ primary = false, title }) => {
+const LargeButton: React.FC<IProps> = ({
+  primary = false,
+  title,
+  customWidth = 275,
+  marginTop = 0,
+}) => {
   return (
     <React.Fragment>
-      <Button primary={primary ? 1 : 0}>{title}</Button>
+      <Button
+        primary={primary ? 1 : 0}
+        customWidth={customWidth}
+        marginTop={marginTop}
+      >
+        {title}
+      </Button>
     </React.Fragment>
   );
 };

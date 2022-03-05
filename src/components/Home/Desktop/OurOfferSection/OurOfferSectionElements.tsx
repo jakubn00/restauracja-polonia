@@ -11,14 +11,15 @@ export const OurOfferSectionContainer = styled.div`
   width: 100%;
   height: 700px;
   position: absolute;
-  top: 160vh;
+  top: 170vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-image: url(${backgroundImage});
+  flex-direction: column;
 `;
+
 export const SectionTitleYellowBox = styled.div`
-  position: absolute;
   width: 400px;
   height: 80px;
   background-color: ${POLONIA_YELLOW_COLOR};
@@ -34,12 +35,13 @@ export const OurOfferSectionTitle = styled.h2`
 
 export const OurOfferDishesContainer = styled.div`
   width: 75%;
-  height: 65%;
+  height: 85%;
   align-self: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  margin-top: 30px;
 `;
 
 export const CardContainer = styled.div`
@@ -71,5 +73,5 @@ export const CardDescription = styled.p`
 `;
 
 export const CardTextWrapper = styled.div`
-  margin-top: -60px;
+  margin-top: -30px;
 `;

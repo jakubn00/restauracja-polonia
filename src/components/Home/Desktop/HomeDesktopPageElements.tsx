@@ -1,10 +1,28 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import {
   DARK_BACKGROUND_COLOR,
   LIGHT_BACKROUND_COLOR,
   POLONIA_YELLOW_COLOR,
 } from "../../../utils/colors";
 import { BODY, FUTURA_H1, FUTURA_H2 } from "../../../utils/fontSizes";
+
+const lineUpAnimation = keyframes` 
+0% {
+  opacity: 0;
+  transform: translateY(80%);
+}
+20% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+  transform: translateY(0%);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0%);
+}
+`;
 
 export const HomeDesktopPageContainer = styled.div`
   width: 100%;
@@ -35,7 +53,7 @@ export const YellowBox = styled.div`
 export const AboutUsSectionContainer = styled.div`
   width: 100%;
   position: absolute;
-  top: 100vh;
+  top: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +71,7 @@ export const BackgroundVideo = styled.video`
 
 export const Header = styled.header`
   position: absolute;
-  top: 40%;
+  top: 44%;
   width: 100%;
   padding: 40px calc((100vw - 1400px) / 2);
   z-index: 10;
@@ -69,6 +87,7 @@ export const HeroHeader = styled.h1`
   font-weight: 700;
   color: ${LIGHT_BACKROUND_COLOR};
   z-index: 10;
+  animation: ${lineUpAnimation} 2s ease-out;
 `;
 
 export const HeroCaption = styled.p`
