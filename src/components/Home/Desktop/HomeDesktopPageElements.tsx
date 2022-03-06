@@ -71,7 +71,7 @@ export const BackgroundVideo = styled.video`
 
 export const Header = styled.header`
   position: absolute;
-  top: 44%;
+  top: 42%;
   width: 100%;
   padding: 40px calc((100vw - 1400px) / 2);
   z-index: 10;
