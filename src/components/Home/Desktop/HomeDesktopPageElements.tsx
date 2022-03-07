@@ -25,14 +25,14 @@ const lineUpAnimation = keyframes`
 `;
 
 export const HomeDesktopPageContainer = styled.div`
-  width: 100%;
-  min-height: 4000px;
+  min-height: 100vh;
   background-color: ${LIGHT_BACKROUND_COLOR};
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const HeroSectionContainer = styled.div`
-  position: absolute;
-  right: 0;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -52,11 +52,10 @@ export const YellowBox = styled.div`
 
 export const AboutUsSectionContainer = styled.div`
   width: 100%;
-  position: absolute;
-  top: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 `;
 
 export const BackgroundVideo = styled.video`

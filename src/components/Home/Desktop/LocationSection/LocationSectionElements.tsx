@@ -4,11 +4,10 @@ import { BODY, FUTURA_H2 } from "../../../../utils/fontSizes";
 
 export const LocationSectionContainer = styled.div`
   width: 100%;
-  position: absolute;
-  top: 330vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
 `;
 
 export const LocationPicture = styled.img`

@@ -10,8 +10,7 @@ import {
 export const OurOfferSectionContainer = styled.div`
   width: 100%;
   height: 700px;
-  position: absolute;
-  top: 170vh;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;

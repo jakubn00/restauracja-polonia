@@ -4,8 +4,7 @@ import { BODY, FUTURA_H2 } from "../../../../utils/fontSizes";
 
 export const EventsSectionContainer = styled.div`
   width: 100%;
-  position: absolute;
-  top: 270vh;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;

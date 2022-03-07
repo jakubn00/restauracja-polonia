@@ -17,7 +17,7 @@ export const NavbarContainer = styled.nav<Props>`
   background: ${(props) => (props.dark === 1 ? "" : LIGHT_BACKROUND_COLOR)};
   display: flex;
   justify-content: space-between;
-  z-index: 10;
+  z-index: 1000;
   padding: 0.5rem calc((100vw - 1200px) / 2);
   justify-content: flex-start;
   transition: 0.5s;
