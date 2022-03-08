@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Sałatki",
+    "items": [
+      {
+        "name": "W stylu greckim",
+        "description": "z grillowanym kurczakiem i sosem winegret",
+        "price": "18zł"
+      },
+      {
+        "name": "Z wędzonym łososiem ",
+        "description": "łosoś wędzony, jajko w koszulce, mix sałat, pomidorki, ogórek, grzanki, sos musztardowo-miodowy",
+        "price": "18zł"
+      },
+      {
+        "name": "Sałatka Cezar",
+        "description": "z czosnkową grzanką - sałata rzymska,parmezan,grzanka,sos majonezowo-musztardowy",
+        "price": "17zł"
+      },
+      {
+        "name": "Z serem Halloumi",
+        "description": "grillowany ser Halloumi, gruszka, mix sałat, orzechy włoskie i dressing z musem z pomarańczy",
+        "price": "20zł"
+      }
+    ]
+  },
+  {
+    "category": "Zupy",
+    "items": [
+      {
+        "name": "Rosół",
+        "description": "z makaronem",
+        "price": "11zł"
+      },
+      {
+        "name": "Pomidorowa",
+        "description": "z makaronem zabielana",
+        "price": "10zł"
+      },
+      {
+        "name": "Kremowa",
+        "description": "z batatów z ricottą",
+        "price": "12zł"
+      },
+      {
+        "name": "Żurek",
+        "description": "z jajkiem i białą kiełbasą",
+        "price": "13zł"
+      },
+      {
+        "name": "Flaczki wołowe",
+        "description": "",
+        "price": "13zł"
+      },
+      {
+        "name": "Zupa gulaszowa",
+        "description": "",
+        "price": "14zł"
+      }
+    ]
+  }
+]
