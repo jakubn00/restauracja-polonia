@@ -4,7 +4,7 @@ import {
   FooterColumnContainer,
   FooterParagraph,
 } from "./FooterElements";
-import openHours from "../../../../data/openHours.json";
+import openHours from "../../../data/openHours.json";
 
 const FooterOpenHours = () => {
   return (

@@ -4,8 +4,8 @@ import {
   DARK_BACKGROUND_COLOR,
   GRAY_COLOR,
   LIGHT_BACKROUND_COLOR,
-} from "../../../../utils/colors";
-import { BODY, FUTURA_H3 } from "../../../../utils/fontSizes";
+} from "../../../utils/colors";
+import { BODY, FUTURA_H3 } from "../../../utils/fontSizes";
 
 export const FooterSection = styled.footer`
   width: 100%;

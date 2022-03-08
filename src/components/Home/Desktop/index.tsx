@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../shared/NavBar";
 import AboutUsSection from "./AboutUsSection";
 import EventsSection from "./EventsSection";
-import Footer from "./Footer";
+import Footer from "../../shared/Footer";
 import HeroSection from "./HeroSection";
 import { HomeDesktopPageContainer } from "./HomeDesktopPageElements";
 import LocationSection from "./LocationSection";
