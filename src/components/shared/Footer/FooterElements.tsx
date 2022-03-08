@@ -24,8 +24,9 @@ export const FooterElementHeader = styled.h2`
 `;
 
 export const FooterColumnContainer = styled.div`
-  width: 20%;
+  min-width: 20%;
   margin-top: 26px;
+  margin-right: 16px;
 `;
 
 export const FooterParagraph = styled.p`
@@ -46,4 +47,24 @@ export const FooterParagraphLink = styled(Link)`
   &:hover {
     color: ${GRAY_COLOR};
   }
+`;
+
+export const FooterLogoColumnContainer = styled.div`
+  width: 10%;
+  display: flex;
+  margin-top: 44px;
+  flex-direction: column;
+`;
+
+export const FooterImage = styled.img`
+  width: 100%;
+`;
+
+export const FooterIconsWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
 `;
