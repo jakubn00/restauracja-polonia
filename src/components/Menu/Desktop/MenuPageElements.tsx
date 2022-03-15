@@ -34,7 +34,6 @@ export const MenuCategory = styled.h2`
   color: ${DARK_BACKGROUND_COLOR};
   background-color: ${POLONIA_YELLOW_COLOR};
   padding: 6px 32px;
-  border-radius: 8px;
 `;
 
 export const MenuItemContainer = styled.div`
