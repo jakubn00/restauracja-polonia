@@ -17,12 +17,13 @@ export const GalleryPicturesContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 24px;
 `;
 
 export const PictureItem = styled.img`
   width: 16vw;
+  min-width: 260px;
   border-radius: 8px;
   transition: transform 0.2s;
   cursor: -webkit-zoom-in;
@@ -31,4 +32,3 @@ export const PictureItem = styled.img`
     transform: scale(1.03);
   }
 `;
-

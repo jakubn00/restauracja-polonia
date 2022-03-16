@@ -9,8 +9,16 @@ import {
   HeroHeader,
   HeroSectionContainer,
 } from "./HomeDesktopPageElements";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const history = useNavigate();
+  const routeToContact = () => {
+    history("/kontakt");
+  };
+  const routeToMenu = () => {
+    history("/menu");
+  };
   return (
     <HeroSectionContainer>
       <BackgroundVideo src={video} loop autoPlay muted></BackgroundVideo>
@@ -24,8 +32,11 @@ const HeroSection = () => {
             Odwiedź nas i odkryj niepowtarzalny smak naszych dań.
           </HeroCaption>
           <ButtonGroup>
-            <LargeButton title={"Sprawdź gdzie jesteśmy"} />
-            <LargeButton primary title={"Zobacz menu"} />
+            <LargeButton
+              title={"Sprawdź gdzie jesteśmy"}
+              onClick={routeToContact}
+            />
+            <LargeButton primary title={"Zobacz menu"} onClick={routeToMenu} />
           </ButtonGroup>
         </HeroHeader>
       </Header>

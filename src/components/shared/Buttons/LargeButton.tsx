@@ -35,6 +35,7 @@ interface IProps {
   title: string;
   customWidth?: number;
   marginTop?: number;
+  onClick: () => void;
 }
 
 const LargeButton: React.FC<IProps> = ({
@@ -42,6 +43,7 @@ const LargeButton: React.FC<IProps> = ({
   title,
   customWidth = 275,
   marginTop = 0,
+  onClick,
 }) => {
   return (
     <React.Fragment>
@@ -49,6 +51,7 @@ const LargeButton: React.FC<IProps> = ({
         primary={primary ? 1 : 0}
         customWidth={customWidth}
         marginTop={marginTop}
+        onClick={onClick}
       >
         {title}
       </Button>

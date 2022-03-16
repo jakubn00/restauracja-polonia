@@ -8,6 +8,7 @@ import CookieConsent from "react-cookie-consent";
 import PageNotFound from "./404-page";
 import Menu from "./components/Menu";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 
 function App() {
   const isTabletOrMobile = useMediaQuery({ maxWidth: 1023 });
@@ -22,13 +23,20 @@ function App() {
         <Route path="*" element={<PageNotFound />} />
         <Route path="/" element={<Home isMobile={isTabletOrMobile} />} />
         <Route path="/menu" element={<Menu isMobile={isTabletOrMobile} />} />
-        <Route path="/galeria" element={<Gallery isMobile={isTabletOrMobile} />} />
+        <Route
+          path="/galeria"
+          element={<Gallery isMobile={isTabletOrMobile} />}
+        />
         <Route path="/hotel" element={<Hotel />} />
+        <Route
+          path="/kontakt"
+          element={<Contact isMobile={isTabletOrMobile} />}
+        />
       </Routes>
       <CookieConsent
         buttonText="Rozumiem"
         style={{
-          width: "40vw",
+          width: "100vw",
           backgroundColor: "#e3e3e3",
           color: "#020202",
         }}

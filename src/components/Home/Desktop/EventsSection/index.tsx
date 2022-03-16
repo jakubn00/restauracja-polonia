@@ -9,8 +9,13 @@ import {
   EventsPicture,
   EventsSectionContainer,
 } from "./EventsSectionElements";
+import { useNavigate } from "react-router-dom";
 
 const EventsSection = () => {
+  const history = useNavigate();
+  const routeToContact = () => {
+    history("/kontakt");
+  };
   return (
     <EventsSectionContainer>
       <EventsHeaderWrapper>
@@ -23,7 +28,12 @@ const EventsSection = () => {
           porro quae, repellat, ea neque nobis similique ad dicta amet minima
           aliquid hic officia eveniet tenetur rerum velit mollitia.
         </EventsCaption>
-        <MediumButton title="Kontakt" customWidth={230} marginTop={30} />
+        <MediumButton
+          title="Kontakt"
+          customWidth={230}
+          marginTop={30}
+          onClick={routeToContact}
+        />
       </EventsHeaderWrapper>
       <EventsPicture src={eventsPicture} />
     </EventsSectionContainer>

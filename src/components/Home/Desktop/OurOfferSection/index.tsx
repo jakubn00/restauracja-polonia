@@ -11,6 +11,7 @@ import soupPicture from "../../../../images/soup-picture.png";
 import dishPicture from "../../../../images/dish-picture.png";
 import dessertPicture from "../../../../images/dessert-picture.png";
 import LargeButton from "../../../shared/Buttons/LargeButton";
+import { useNavigate } from "react-router-dom";
 
 const saladsDesc = "Zdrowe i smaczne. Zawsze ze świeżych warzyw.";
 const soupsDesc =
@@ -19,6 +20,10 @@ const dishesDesc = "Pożywne i apetyczne. Jak prawdziwe domowe obiady.";
 const dessertsDesc = "Słodkie i owocowe. Podane z kawą smakują najlepiej.";
 
 const OurOfferSection = () => {
+  const history = useNavigate();
+  const routeToMenu = () => {
+    history("/menu");
+  };
   return (
     <OurOfferSectionContainer>
       <SectionTitleYellowBox>
@@ -42,7 +47,7 @@ const OurOfferSection = () => {
           picture={dessertPicture}
         />
       </OurOfferDishesContainer>
-      <LargeButton title="Zobacz nasze menu" primary />
+      <LargeButton title="Zobacz nasze menu" primary onClick={routeToMenu} />
     </OurOfferSectionContainer>
   );
 };
