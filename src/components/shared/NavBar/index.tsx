@@ -1,5 +1,6 @@
 import React from "react";
 import DesktopNavbar from "./Desktop";
+import MobileNavbar from "./Mobile";
 
 interface IProps {
   isMobile?: boolean;
@@ -19,9 +20,9 @@ const Navbar: React.FC<IProps> = ({ isMobile = false, isDarker = false }) => {
 
     switch (expr) {
       case `light-mobile`:
-        return <div>Light mobile</div>;
+        return <MobileNavbar />;
       case `dark-mobile`:
-        return <div>Dark mobile</div>;
+        return <MobileNavbar dark />;
       case `dark-desktop`:
         return <DesktopNavbar dark />;
       case `light-desktop`:

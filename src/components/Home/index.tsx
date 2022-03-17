@@ -1,5 +1,6 @@
 import React from "react";
 import HomeDesktopPage from "./Desktop";
+import HomeMobilePage from "./Mobile";
 
 interface IProps {
   isMobile: boolean;
@@ -8,7 +9,7 @@ interface IProps {
 const Home: React.FC<IProps> = ({ isMobile }) => {
   return (
     <React.Fragment>
-      {isMobile ? <div>Test Mobile</div> : <HomeDesktopPage />}
+      {isMobile ? <HomeMobilePage /> : <HomeDesktopPage />}
     </React.Fragment>
   );
 };
