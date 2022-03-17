@@ -1,11 +1,8 @@
 import styled from "styled-components";
 import {
-  DARKER_GRAY_COLOR,
   DARK_BACKGROUND_COLOR,
-  GRAY_COLOR,
   LIGHT_BACKROUND_COLOR,
   POLONIA_DARKER_YELLOW_COLOR,
-  POLONIA_YELLOW_COLOR,
 } from "../../utils/colors";
 import { BODY, FUTURA_H2 } from "../../utils/fontSizes";
 

@@ -3,11 +3,13 @@ import styled from "styled-components";
 import {
   DARK_BACKGROUND_COLOR,
   LIGHT_BACKROUND_COLOR,
+  POLONIA_YELLOW_COLOR,
 } from "../../../../utils/colors";
 import { FUTURA_LINK } from "../../../../utils/fontSizes";
 
 interface Props {
   dark: number;
+  isActive?: number;
 }
 
 export const NavbarContainer = styled.nav<Props>`
@@ -28,7 +30,10 @@ export const NavbarLink = styled(Link)<Props>`
     props.dark === 1 ? LIGHT_BACKROUND_COLOR : DARK_BACKGROUND_COLOR};
   display: flex;
   align-items: center;
-  text-decoration: none;
+  text-decoration: ${(props) =>
+    props.isActive === 1
+      ? `underline ${POLONIA_YELLOW_COLOR} solid 4px`
+      : "none"};
   padding: 0 1.9rem;
   height: 100%;
   cursor: pointer;

@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineFacebook, AiOutlineInstagram } from "react-icons/ai";
 import {
+  FooterIconLink,
   FooterIconsWrapper,
   FooterImage,
   FooterLogoColumnContainer,
@@ -12,8 +13,21 @@ const FooterLogo = () => {
     <FooterLogoColumnContainer>
       <FooterImage src={footerLogo} />
       <FooterIconsWrapper>
-        <AiOutlineFacebook size={42} />
-        <AiOutlineInstagram size={42} />
+        <FooterIconLink
+          href="https://www.facebook.com/Restauracja-Polonia-101206695074132/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiOutlineFacebook size={42} />
+        </FooterIconLink>
+
+        <FooterIconLink
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiOutlineInstagram size={42} />
+        </FooterIconLink>
       </FooterIconsWrapper>
     </FooterLogoColumnContainer>
   );

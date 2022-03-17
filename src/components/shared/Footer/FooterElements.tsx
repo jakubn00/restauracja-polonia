@@ -68,3 +68,12 @@ export const FooterIconsWrapper = styled.div`
   gap: 25px;
   margin-top: 25px;
 `;
+
+export const FooterIconLink = styled.a`
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
+  &:hover {
+    color: ${GRAY_COLOR};
+  }
+`;
