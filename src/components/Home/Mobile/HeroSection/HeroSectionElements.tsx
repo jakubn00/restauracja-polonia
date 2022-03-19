@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { LIGHT_BACKROUND_COLOR } from "../../../../utils/colors";
-import { FUTURA_H1 } from "../../../../utils/fontSizes";
+import { FUTURA_H1, FUTURA_H3 } from "../../../../utils/fontSizes";
 
 const lineUpAnimation = keyframes` 
 0% {
@@ -58,7 +58,7 @@ export const HeroHeader = styled.h1`
 
 export const HeroCaption = styled.p`
   font-family: "Lato", sans-serif;
-  font-size: clamp(16px, 4vmin, ${FUTURA_H1});
+  font-size: clamp(16px, 4vmin, ${FUTURA_H3});
   color: ${LIGHT_BACKROUND_COLOR};
   line-height: calc(4vmin + 6px);
   font-weight: 200;

@@ -70,7 +70,7 @@ export const BackgroundVideo = styled.video`
 
 export const Header = styled.header`
   position: absolute;
-  top: 42%;
+  top: 46%;
   width: 100%;
   padding: 40px calc((100vw - 1400px) / 2);
   z-index: 10;
@@ -87,6 +87,7 @@ export const HeroHeader = styled.h1`
   color: ${LIGHT_BACKROUND_COLOR};
   z-index: 10;
   animation: ${lineUpAnimation} 2s ease-out;
+  text-shadow: 0px 0px 6px rgba(34, 34, 39, 1);
 `;
 
 export const HeroCaption = styled.p`
@@ -94,13 +95,14 @@ export const HeroCaption = styled.p`
   font-size: ${BODY};
   color: ${LIGHT_BACKROUND_COLOR};
   font-weight: 200;
+  text-shadow: 0px 0px 6px rgba(34, 34, 39, 1);
 `;
 
 export const ButtonGroup = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 48px;
 `;
 
 export const AboutUsPicture = styled.img`
