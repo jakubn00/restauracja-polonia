@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import {
   DARKER_GRAY_COLOR,
+  DARK_BACKGROUND_COLOR,
   GRAY_COLOR,
   POLONIA_DARKER_YELLOW_COLOR,
   POLONIA_YELLOW_COLOR,
@@ -22,6 +23,7 @@ const Button = styled.button<any>`
   line-height: ${BODY};
   font-weight: 700;
   transition: background-color 0.2s;
+  color: ${DARK_BACKGROUND_COLOR};
   background-color: ${(props) =>
     props.primary === 1 ? POLONIA_YELLOW_COLOR : GRAY_COLOR};
   &:hover {

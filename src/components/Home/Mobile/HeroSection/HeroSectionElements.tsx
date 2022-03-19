@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { LIGHT_BACKROUND_COLOR } from "../../../../utils/colors";
-import { BODY, FUTURA_H1 } from "../../../../utils/fontSizes";
+import { FUTURA_H1 } from "../../../../utils/fontSizes";
 
 const lineUpAnimation = keyframes` 
 0% {
@@ -35,7 +35,7 @@ export const BackgroundVideo = styled.video`
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 100%;
   object-fit: cover;
   z-index: 1;
 `;
@@ -66,7 +66,7 @@ export const HeroCaption = styled.p`
 
 export const ButtonGroup = styled.div`
   width: 100%;
-  margin-top: 16vh;
+  margin-top: clamp(16px, 14vh, 180px);
   display: flex;
   flex-direction: column;
   gap: 12px;

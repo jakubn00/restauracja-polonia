@@ -8,8 +8,9 @@ import {
 import { FUTURA_LINK } from "../../../../utils/fontSizes";
 
 interface Props {
-  dark: number;
+  dark?: number;
   isActive?: number;
+  isOpen?: number;
 }
 
 export const MobileNavbarContainer = styled.nav<Props>`
@@ -68,4 +69,41 @@ export const HamburgerMenuButton = styled.div<Props>`
     background: #15cdfc;
     background-opacity: 0.3;
   }
+`;
+
+export const CloseButtonWrapper = styled.div`
+  padding: 8px;
+  &:active {
+    background: #15cdfc;
+    background-opacity: 0.3;
+  }
+`;
+
+export const SideMenuContainer = styled.div<Props>`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: ${DARK_BACKGROUND_COLOR};
+  transform: ${({ isOpen }) => (isOpen ? "translateX(0)" : "translateX(100%)")};
+  height: 100vh;
+  width: 80vw;
+  text-align: center;
+  padding: 2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+`;
+
+export const OutsideSpace = styled.div<Props>`
+  transform: ${({ isOpen }) =>
+    isOpen ? "translateX(0)" : "translateX(-100%)"};
+  height: 100vh;
+  width: 20vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
 `;

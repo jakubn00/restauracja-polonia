@@ -21,7 +21,7 @@ const HamburgerMenuIcon: React.FC<IProps> = ({ isDarker = true }) => {
           transform="translate(285.01 37.58)"
           fill="none"
           stroke={isDarker ? "#0a0a0a" : "#fff"}
-          stroke-width="3"
+          strokeWidth="3"
         />
         <line
           id="Line_5"
@@ -30,7 +30,7 @@ const HamburgerMenuIcon: React.FC<IProps> = ({ isDarker = true }) => {
           transform="translate(285.01 49.5)"
           fill="none"
           stroke={isDarker ? "#0a0a0a" : "#fff"}
-          stroke-width="3"
+          strokeWidth="3"
         />
         <line
           id="Line_6"
@@ -39,7 +39,7 @@ const HamburgerMenuIcon: React.FC<IProps> = ({ isDarker = true }) => {
           transform="translate(285.01 61.42)"
           fill="none"
           stroke={isDarker ? "#0a0a0a" : "#fff"}
-          stroke-width="3"
+          strokeWidth="3"
         />
       </g>
     </svg>

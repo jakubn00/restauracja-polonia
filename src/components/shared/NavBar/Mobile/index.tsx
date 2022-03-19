@@ -1,5 +1,4 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
+import React, { useState } from "react";
 import {
   HamburgerButtonContainer,
   HamburgerMenuButton,
@@ -10,36 +9,41 @@ import {
 import logoWhite from "../../../../images/logo-white.svg";
 import logo from "../../../../images/logo.svg";
 import HamburgerMenuIcon from "../../Buttons/HamburgerMenuIcon";
+import SideMenu from "./SideMenu";
 
 interface IProps {
   dark?: boolean;
 }
 
 const MobileNavbar: React.FC<IProps> = ({ dark = false }) => {
-  const location = useLocation();
-  const isLinkActive = (url: string) => {
-    if (location.pathname === url) {
-      return 1;
-    } else {
-      return 0;
-    }
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleOpenMenu = () => {
+    setMenuOpen(true);
+  };
+
+  const handleCloseMenu = () => {
+    setMenuOpen(false);
   };
   return (
-    <MobileNavbarContainer dark={dark ? 1 : 0}>
-      <MobileNavbarLink dark={dark ? 1 : 0} to="\">
-        {" "}
-        {dark ? (
-          <MobileNavbarImage src={logoWhite} alt="logo" />
-        ) : (
-          <MobileNavbarImage src={logo} alt="logo" />
-        )}
-      </MobileNavbarLink>
-      <HamburgerButtonContainer>
-        <HamburgerMenuButton dark={dark ? 1 : 0}>
-          <HamburgerMenuIcon isDarker={!dark} />
-        </HamburgerMenuButton>
-      </HamburgerButtonContainer>
-    </MobileNavbarContainer>
+    <React.Fragment>
+      <MobileNavbarContainer dark={dark ? 1 : 0}>
+        <MobileNavbarLink dark={dark ? 1 : 0} to="\">
+          {" "}
+          {dark ? (
+            <MobileNavbarImage src={logoWhite} alt="logo" />
+          ) : (
+            <MobileNavbarImage src={logo} alt="logo" />
+          )}
+        </MobileNavbarLink>
+        <HamburgerButtonContainer>
+          <HamburgerMenuButton dark={dark ? 1 : 0} onClick={handleOpenMenu}>
+            <HamburgerMenuIcon isDarker={!dark} />
+          </HamburgerMenuButton>
+        </HamburgerButtonContainer>
+      </MobileNavbarContainer>
+      <SideMenu isOpen={menuOpen} onClose={handleCloseMenu} />
+    </React.Fragment>
   );
 };
 
