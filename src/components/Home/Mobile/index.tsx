@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../shared/NavBar";
+import MobileAboutUsSection from "./AboutUs";
 import MobileHeroSection from "./HeroSection";
 import { HomeMobilePageContainer } from "./HomeMobilePageElements";
 
@@ -30,6 +31,7 @@ const HomeMobilePage = () => {
     <HomeMobilePageContainer>
       <Navbar isMobile isDarker={handleGetNavbarTheme()} />
       <MobileHeroSection />
+      <MobileAboutUsSection />
     </HomeMobilePageContainer>
   );
 };
