@@ -1,7 +1,12 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import CloseIcon from "../../Buttons/CloseIcon";
-import { CloseButtonWrapper, OutsideSpace, SideMenuContainer } from "./MobileNavbarElements";
+import {
+  CloseButtonWrapper,
+  MobileNavBarLink,
+  OutsideSpace,
+  SideMenuContainer,
+} from "./MobileNavbarElements";
 
 interface IProps {
   isOpen: boolean;
@@ -24,6 +29,21 @@ const SideMenu: React.FC<IProps> = ({ isOpen, onClose }) => {
         <CloseButtonWrapper onClick={onClose}>
           <CloseIcon />
         </CloseButtonWrapper>
+        <MobileNavBarLink isActive={isLinkActive("/")} to="/">
+          STRONA GŁÓWNA
+        </MobileNavBarLink>
+        <MobileNavBarLink isActive={isLinkActive("/menu")} to="/menu">
+          MENU
+        </MobileNavBarLink>
+        <MobileNavBarLink isActive={isLinkActive("/galeria")} to="/galeria">
+          GALERIA
+        </MobileNavBarLink>
+        <MobileNavBarLink isActive={0} to="/hotel" target={"_blank"}>
+          HOTEL
+        </MobileNavBarLink>
+        <MobileNavBarLink isActive={isLinkActive("/kontakt")} to="/kontakt">
+          KONTAKT
+        </MobileNavBarLink>
       </SideMenuContainer>
     </React.Fragment>
   );

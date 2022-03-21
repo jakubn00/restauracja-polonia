@@ -5,7 +5,7 @@ import {
   LIGHT_BACKROUND_COLOR,
   POLONIA_YELLOW_COLOR,
 } from "../../../../utils/colors";
-import { FUTURA_LINK } from "../../../../utils/fontSizes";
+import { FUTURA_H3, FUTURA_LINK } from "../../../../utils/fontSizes";
 
 interface Props {
   dark?: number;
@@ -83,6 +83,7 @@ export const SideMenuContainer = styled.div<Props>`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   background: ${DARK_BACKGROUND_COLOR};
   transform: ${({ isOpen }) => (isOpen ? "translateX(0)" : "translateX(100%)")};
   height: 100vh;
@@ -106,4 +107,26 @@ export const OutsideSpace = styled.div<Props>`
   right: 0;
   z-index: 1000;
   transition: transform 0.3s ease-in-out;
+`;
+
+export const MobileNavBarLink = styled(Link)<Props>`
+  color: ${LIGHT_BACKROUND_COLOR};
+  display: flex;
+  align-items: center;
+  text-decoration: ${(props) =>
+    props.isActive === 1
+      ? `underline ${POLONIA_YELLOW_COLOR} solid 4px`
+      : "none"};
+  text-underline-position: under;
+  cursor: pointer;
+  padding: 18px 10px;
+  font-size: calc(${FUTURA_H3} - 8px);
+  font-weight: 600;
+  letter-spacing: 1px;
+  &:active {
+    color: #15cdfc;
+  }
+  &:hover {
+    color: "#d5d5d5";
+  }
 `;
