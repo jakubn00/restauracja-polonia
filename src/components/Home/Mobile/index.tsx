@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../shared/NavBar";
 import MobileAboutUsSection from "./AboutUs";
+import MobileEventsSection from "./EventsSection";
 import MobileHeroSection from "./HeroSection";
 import { HomeMobilePageContainer } from "./HomeMobilePageElements";
 import MobileOurOfferSection from "./OurOffer";
@@ -34,6 +35,7 @@ const HomeMobilePage = () => {
       <MobileHeroSection />
       <MobileAboutUsSection />
       <MobileOurOfferSection />
+      <MobileEventsSection />
     </HomeMobilePageContainer>
   );
 };
