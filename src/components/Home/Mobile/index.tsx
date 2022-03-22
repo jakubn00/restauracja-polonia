@@ -3,6 +3,7 @@ import Navbar from "../../shared/NavBar";
 import MobileAboutUsSection from "./AboutUs";
 import MobileHeroSection from "./HeroSection";
 import { HomeMobilePageContainer } from "./HomeMobilePageElements";
+import MobileOurOfferSection from "./OurOffer";
 
 const HomeMobilePage = () => {
   const [scrollPosition, setScrollPosition] = useState({
@@ -32,6 +33,7 @@ const HomeMobilePage = () => {
       <Navbar isMobile isDarker={handleGetNavbarTheme()} />
       <MobileHeroSection />
       <MobileAboutUsSection />
+      <MobileOurOfferSection />
     </HomeMobilePageContainer>
   );
 };

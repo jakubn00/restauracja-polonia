@@ -16,6 +16,7 @@ export const AboutUsWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 10vh;
 `;
 
 export const AboutUsHeader = styled.h2`
@@ -37,3 +38,5 @@ export const AboutUsCaption = styled.p`
 export const AboutUsMediumButtonWrapper = styled.div`
   align-self: center;
 `;
+
+
