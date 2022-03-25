@@ -6,7 +6,7 @@ import {
   EventsPicture,
   EventsSectionContainer,
 } from "./EventsSectionElements";
-import eventsPicture from "../../../../images/about-us-picture.jpg";
+import eventsPicture from "../../../../images/events-picture.jpg";
 import MediumButton from "../../../shared/Buttons/MediumButton";
 import { useNavigate } from "react-router-dom";
 
@@ -19,10 +19,11 @@ const MobileEventsSection = () => {
     <EventsSectionContainer>
       <EventsHeader>Imprezy okolicznościowe</EventsHeader>
       <EventsCaption>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu est
-        ante. Aenean efficitur tellus mi, at condimentum libero aliquet at.
-        Vivamus tincidunt ut magna ut hendrerit. Pellentesque sit amet dignissim
-        massa.
+        Organizujemy również przeróżne imprezy. Robimy wszystko, aby każda
+        uroczystość była zapamiętana przez wszystkich gości. Restauracja posiada
+        odnowione i gustowne wnętrze. Połączenie takiego wystroju z pysznym
+        jedzeniem sprawia, że każdy uczestnik będzie miło wspominał spędzony
+        czas.
       </EventsCaption>
       <EventsPicture src={eventsPicture} alt="Impreza komunijna" />
       <EventsMediumButtonWrapper>

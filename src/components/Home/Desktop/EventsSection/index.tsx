@@ -1,7 +1,7 @@
 import React from "react";
 import MediumButton from "../../../shared/Buttons/MediumButton";
 import { YellowBox } from "../HomeDesktopPageElements";
-import eventsPicture from "../../../../images/about-us-picture.jpg";
+import eventsPicture from "../../../../images/events-picture.jpg";
 import {
   EventsCaption,
   EventsHeader,
@@ -24,9 +24,11 @@ const EventsSection = () => {
           Imprezy okolicznościowe
         </EventsHeader>
         <EventsCaption>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio in aut
-          porro quae, repellat, ea neque nobis similique ad dicta amet minima
-          aliquid hic officia eveniet tenetur rerum velit mollitia.
+          Organizujemy również przeróżne imprezy. Robimy wszystko, aby każda
+          uroczystość była zapamiętana przez wszystkich gości. Restauracja
+          posiada odnowione i gustowne wnętrze. Połączenie takiego wystroju z
+          pysznym jedzeniem sprawia, że każdy uczestnik będzie miło wspominał
+          spędzony czas.
         </EventsCaption>
         <MediumButton
           title="Kontakt"
@@ -35,7 +37,7 @@ const EventsSection = () => {
           onClick={routeToContact}
         />
       </EventsHeaderWrapper>
-      <EventsPicture src={eventsPicture} />
+      <EventsPicture src={eventsPicture} loading="lazy" />
     </EventsSectionContainer>
   );
 };

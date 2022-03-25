@@ -37,15 +37,15 @@ const MobileHeroSection = () => {
           <HeroCaption>
             Odwiedź nas i odkryj niepowtarzalny smak naszych dań.
           </HeroCaption>
-          <ButtonGroup>
-            <LargeButton
-              title={"Sprawdź gdzie jesteśmy"}
-              onClick={routeToContact}
-            />
-            <LargeButton primary title={"Zobacz menu"} onClick={routeToMenu} />
-          </ButtonGroup>
         </HeroHeader>
       </Header>
+      <ButtonGroup>
+        <LargeButton
+          title={"Sprawdź gdzie jesteśmy"}
+          onClick={routeToContact}
+        />
+        <LargeButton primary title={"Zobacz menu"} onClick={routeToMenu} />
+      </ButtonGroup>
     </HeroSectionContainer>
   );
 };

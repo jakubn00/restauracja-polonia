@@ -18,19 +18,18 @@ const AboutUsSection = () => {
   };
   return (
     <AboutUsSectionContainer>
-      <AboutUsPicture src={aboutUsPicture} />
+      <AboutUsPicture src={aboutUsPicture} loading="lazy" />
       <AboutUsHeaderWrapper>
         <AboutUsHeader>
           <YellowBox />O nas{" "}
         </AboutUsHeader>
         <AboutUsCaption>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu est
-          ante. Aenean efficitur tellus mi, at condimentum libero aliquet at.
-          Vivamus tincidunt ut magna ut hendrerit. Pellentesque sit amet
-          dignissim massa. In hac habitasse platea dictumst. Aliquam quis magna
-          et eros laoreet luctus. In ac laoreet eros, vel viverra odio. Maecenas
-          porta magna lacus, auctor tempor diam molestie ut. Praesent at tortor
-          tristique, pharetra metus ut, egestas risus.
+          Przygotowujemy posiłki zawsze ze świeżych i jakościowych składników.
+          Nasi kucharze dbają o smak i wygląd każdej potrawy. Mamy wieloletnie
+          doświadczenie, które wykorzystujemy aby zaspokoić Państwa
+          podniebienia. Łączymy atmosferę gustownej i nowoczesnej restauracji z
+          tradycyjnym smakiem "jak u mamy". Zapraszamy na wspólną podróż
+          kulinarną do naszej restauracji.
         </AboutUsCaption>
         <MediumButton
           title="Więcej zdjęć"

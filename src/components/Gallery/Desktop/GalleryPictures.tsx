@@ -13,7 +13,7 @@ import picture8 from "../../../images/gallery/picture8.jpg";
 import picture9 from "../../../images/gallery/picture9.jpg";
 
 const pictures = [
-  { original: picture1, originalClass: "height: 80%" },
+  { original: picture1 },
   { original: picture2 },
   { original: picture3 },
   { original: picture4 },
@@ -25,10 +25,6 @@ const pictures = [
   { original: picture1 },
   { original: picture2 },
   { original: picture3 },
-  { original: picture4 },
-  { original: picture5 },
-  { original: picture6 },
-  { original: picture6 },
 ];
 
 const GalleryPictures = () => {

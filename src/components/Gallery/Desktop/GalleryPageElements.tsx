@@ -12,7 +12,7 @@ export const GalleryDesktopPageContainer = styled.div`
 
 export const GalleryPicturesContainer = styled.div`
   min-height: 90vh;
-  width: 70%;
+  width: 60%;
   padding-top: 125px;
   display: flex;
   flex-direction: row;
@@ -22,7 +22,7 @@ export const GalleryPicturesContainer = styled.div`
 `;
 
 export const PictureItem = styled.img`
-  width: 16vw;
+  width: 18vw;
   min-width: 260px;
   border-radius: 8px;
   transition: transform 0.2s;

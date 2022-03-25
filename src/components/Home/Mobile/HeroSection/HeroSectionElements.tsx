@@ -22,7 +22,7 @@ const lineUpAnimation = keyframes`
 
 export const HeroSectionContainer = styled.div`
   width: 100%;
-  min-height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -42,7 +42,7 @@ export const BackgroundVideo = styled.video`
 
 export const Header = styled.header`
   width: 100%;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   z-index: 10;
 `;
 
@@ -66,11 +66,12 @@ export const HeroCaption = styled.p`
 
 export const ButtonGroup = styled.div`
   width: 100%;
-  margin-top: clamp(16px, 14vh, 180px);
   display: flex;
   flex-direction: column;
   gap: 12px;
   align-items: center;
   justify-content: center;
   justify-items: center;
+  margin-bottom: clamp(20vh, 20vh, 80px);
+  z-index: 100;
 `;
