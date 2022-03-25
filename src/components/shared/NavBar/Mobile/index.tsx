@@ -28,7 +28,7 @@ const MobileNavbar: React.FC<IProps> = ({ dark = false }) => {
   return (
     <React.Fragment>
       <MobileNavbarContainer dark={dark ? 1 : 0}>
-        <MobileNavbarLink dark={dark ? 1 : 0} to="\">
+        <MobileNavbarLink dark={dark ? 1 : 0} to="/">
           {" "}
           {dark ? (
             <MobileNavbarImage src={logoWhite} alt="logo" />
