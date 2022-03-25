@@ -4,6 +4,7 @@ import MobileAboutUsSection from "./AboutUs";
 import MobileEventsSection from "./EventsSection";
 import MobileHeroSection from "./HeroSection";
 import { HomeMobilePageContainer } from "./HomeMobilePageElements";
+import MobileLocationSection from "./LocationSection";
 import MobileOurOfferSection from "./OurOffer";
 
 const HomeMobilePage = () => {
@@ -36,6 +37,7 @@ const HomeMobilePage = () => {
       <MobileAboutUsSection />
       <MobileOurOfferSection />
       <MobileEventsSection />
+      <MobileLocationSection />
     </HomeMobilePageContainer>
   );
 };

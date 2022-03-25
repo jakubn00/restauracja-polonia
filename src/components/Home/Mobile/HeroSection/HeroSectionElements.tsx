@@ -61,7 +61,8 @@ export const HeroCaption = styled.p`
   font-size: clamp(16px, 4vmin, ${FUTURA_H3});
   color: ${LIGHT_BACKROUND_COLOR};
   line-height: calc(4vmin + 6px);
-  font-weight: 200;
+  font-weight: 400;
+  text-shadow: 0px 0px 6px rgba(34, 34, 39, 1);
 `;
 
 export const ButtonGroup = styled.div`
