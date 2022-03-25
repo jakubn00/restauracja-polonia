@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import MobileFooter from "../../shared/MobileFooter";
 import Navbar from "../../shared/NavBar";
 import MobileAboutUsSection from "./AboutUs";
 import MobileEventsSection from "./EventsSection";
@@ -38,6 +39,7 @@ const HomeMobilePage = () => {
       <MobileOurOfferSection />
       <MobileEventsSection />
       <MobileLocationSection />
+      <MobileFooter />
     </HomeMobilePageContainer>
   );
 };
