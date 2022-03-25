@@ -1,5 +1,6 @@
 import React from "react";
 import MenuPageDesktop from "./Desktop/MenuPageDesktop";
+import MenuPageMobile from "./Mobile";
 
 interface IProps {
   isMobile: boolean;
@@ -8,7 +9,7 @@ interface IProps {
 const Menu: React.FC<IProps> = ({ isMobile }) => {
   return (
     <React.Fragment>
-      {isMobile ? <div>Menu Mobile</div> : <MenuPageDesktop />}
+      {isMobile ? <MenuPageMobile /> : <MenuPageDesktop />}
     </React.Fragment>
   );
 };
