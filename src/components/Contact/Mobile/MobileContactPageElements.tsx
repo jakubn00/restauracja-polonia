@@ -26,7 +26,7 @@ export const ContactSectionContainer = styled.div`
 `;
 
 export const ContactHeaderWrapper = styled.div`
-  align-self: flex-start;
+  align-self: center;
   color: ${DARK_BACKGROUND_COLOR};
   margin-left: 2%;
 `;
