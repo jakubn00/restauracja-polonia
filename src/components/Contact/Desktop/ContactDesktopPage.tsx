@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Footer from "../shared/Footer";
-import Navbar from "../shared/NavBar";
+import Footer from "../../shared/Footer";
+import Navbar from "../../shared/NavBar";
 import ContactInfo from "./ContactInfo";
 import { ContactDesktopPageContainer } from "./ContactPageElements";
 

@@ -1,7 +1,4 @@
 import React from "react";
-import { AiFillPhone, AiFillMail } from "react-icons/ai";
-import GoogleMapBox from "../Home/Desktop/LocationSection/GoogleMapBox";
-import openHours from "../../data/openHours.json";
 import {
   ContactCaption,
   ContactHeader,
@@ -10,17 +7,19 @@ import {
   ContactLinkWrapper,
   ContactSectionContainer,
   LinkBolderText,
-} from "./ContactPageElements";
+} from "./MobileContactPageElements";
+import openHours from "../../../data/openHours.json";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
+import GoogleMapBoxContactMobile from "./GoogleMapBoxContactMobile";
 
 const captionText =
   "Restauracja Polonia \n ul. Artura Grottgera 16 \n 35-005 Rzeszów";
 
 const captionAdditionalText = `Godziny otwarcia: \n poniedziałek-piątek: ${openHours.mondayToFriday} \n sobota: ${openHours.saturday} \n niedziela: ${openHours.sunday}`;
 
-const ContactInfo = () => {
+const ContactInfoMobile = () => {
   return (
     <ContactSectionContainer>
-      <GoogleMapBox />
       <ContactHeaderWrapper>
         <ContactHeader>Jak się z nami skontaktować?</ContactHeader>
         <ContactCaption>{captionText}</ContactCaption>
@@ -37,8 +36,9 @@ const ContactInfo = () => {
           </ContactLink>
         </ContactLinkWrapper>
       </ContactHeaderWrapper>
+      <GoogleMapBoxContactMobile />
     </ContactSectionContainer>
   );
 };
 
-export default ContactInfo;
+export default ContactInfoMobile;

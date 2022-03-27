@@ -1,5 +1,6 @@
 import React from "react";
-import ContactDesktopPage from "./ContactDesktopPage";
+import ContactDesktopPage from "./Desktop/ContactDesktopPage";
+import ContactMobilePage from "./Mobile";
 
 interface IProps {
   isMobile: boolean;
@@ -8,7 +9,7 @@ interface IProps {
 const Contact: React.FC<IProps> = ({ isMobile }) => {
   return (
     <React.Fragment>
-      {isMobile ? <div>Contact Mobile</div> : <ContactDesktopPage />}
+      {isMobile ? <ContactMobilePage /> : <ContactDesktopPage />}
     </React.Fragment>
   );
 };
