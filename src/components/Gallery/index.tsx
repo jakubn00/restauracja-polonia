@@ -1,5 +1,6 @@
 import React from "react";
 import GalleryPageDesktop from "./Desktop/GalleryPageDesktop";
+import GalleryMobilePage from "./Mobile";
 
 interface IProps {
   isMobile: boolean;
@@ -8,7 +9,7 @@ interface IProps {
 const Gallery: React.FC<IProps> = ({ isMobile }) => {
   return (
     <React.Fragment>
-      {isMobile ? <div>Gallery Mobile</div> : <GalleryPageDesktop />}
+      {isMobile ? <GalleryMobilePage /> : <GalleryPageDesktop />}
     </React.Fragment>
   );
 };
