@@ -18,7 +18,11 @@ const AboutUsSection = () => {
   };
   return (
     <AboutUsSectionContainer>
-      <AboutUsPicture src={aboutUsPicture} loading="lazy" />
+      <AboutUsPicture
+        src={aboutUsPicture}
+        loading="lazy"
+        alt="Zdjęcie restauracji z zewnątrz"
+      />
       <AboutUsHeaderWrapper>
         <AboutUsHeader>
           <YellowBox />O nas{" "}

@@ -12,7 +12,7 @@ const MobileFooterLogo = () => {
   return (
     <FooterLogoColumnContainer>
       {" "}
-      <FooterImage src={footerLogo} />
+      <FooterImage src={footerLogo} alt="logo restauracji Polonia" />
       <FooterIconsWrapper>
         <FooterIconLink
           href="https://www.facebook.com/Restauracja-Polonia-101206695074132/"

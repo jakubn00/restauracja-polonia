@@ -19,7 +19,7 @@ const DishCard: React.FC<IProps> = ({ title, description, picture }) => {
   };
   return (
     <CardContainer>
-      <CardImage src={picture} loading="lazy" />
+      <CardImage src={picture} loading="lazy" alt={title} />
       <CardTextWrapper>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{getFormattedDescription()}</CardDescription>

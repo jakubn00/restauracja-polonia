@@ -37,7 +37,11 @@ const EventsSection = () => {
           onClick={routeToContact}
         />
       </EventsHeaderWrapper>
-      <EventsPicture src={eventsPicture} loading="lazy" />
+      <EventsPicture
+        src={eventsPicture}
+        loading="lazy"
+        alt="Wystrój sali na komunię"
+      />
     </EventsSectionContainer>
   );
 };

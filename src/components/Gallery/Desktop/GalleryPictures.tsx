@@ -16,18 +16,18 @@ import picture11 from "../../../images/gallery/picture11.jpg";
 import picture12 from "../../../images/gallery/picture12.jpg";
 
 const pictures = [
-  { original: picture1 },
-  { original: picture2 },
-  { original: picture3 },
-  { original: picture4 },
-  { original: picture5 },
-  { original: picture6 },
-  { original: picture7 },
-  { original: picture8 },
-  { original: picture9 },
-  { original: picture10 },
-  { original: picture11 },
-  { original: picture12 },
+  { original: picture1, alt: "Pyszne placki po węgiersku" },
+  { original: picture2, alt: "Smaczne desery" },
+  { original: picture3, alt: "Pyszny obiad" },
+  { original: picture4, alt: "Restauracja Polonia- zdjęcie z zewnątrz" },
+  { original: picture5, alt: "Restauracja Polonia- zdjęcie z zewnątrz" },
+  { original: picture6, alt: "Restauracja Polonia- zdjecie sali" },
+  { original: picture7, alt: "Restauracja Polonia- zdjecie sali" },
+  { original: picture8, alt: "Restauracja Polonia- zdjecie sali" },
+  { original: picture9, alt: "Restauracja Polonia- zdjecie sali" },
+  { original: picture10, alt: "Wystrój sali na komunię" },
+  { original: picture11, alt: "Wystrój sali na imprezę" },
+  { original: picture12, alt: "Wystrój sali na imprezę" },
 ];
 
 const GalleryPictures = () => {
@@ -36,7 +36,7 @@ const GalleryPictures = () => {
       <GalleryPicturesContainer>
         {pictures.map((itemUrl, index) => (
           <Zoom key={index}>
-            <PictureItem src={itemUrl.original} />
+            <PictureItem src={itemUrl.original} alt={itemUrl.alt} />
           </Zoom>
         ))}
       </GalleryPicturesContainer>

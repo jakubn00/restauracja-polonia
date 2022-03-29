@@ -19,7 +19,7 @@ const MobileDishCard: React.FC<IProps> = ({ title, description, picture }) => {
   };
   return (
     <CardContainer>
-      <CardImage src={picture} />
+      <CardImage src={picture} alt={title} />
       <CardTextWrapper>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{getFormattedDescription()}</CardDescription>

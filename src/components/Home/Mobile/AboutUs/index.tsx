@@ -26,7 +26,10 @@ const MobileAboutUsSection = () => {
         smakiem "jak u mamy". Zapraszamy na wspólną podróż kulinarną do naszej
         restauracji.
       </AboutUsCaption>
-      <AboutUsPicture src={aboutUsPicture} />
+      <AboutUsPicture
+        src={aboutUsPicture}
+        alt="Zdjęcie restauracji z zewnątrz"
+      />
       <AboutUsMediumButtonWrapper>
         <MediumButton
           title="Więcej zdjęć"
