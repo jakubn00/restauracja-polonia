@@ -5,22 +5,26 @@
       {
         "name": "W stylu greckim",
         "description": "z grillowanym kurczakiem i sosem winegret",
-        "price": "18zł"
+        "engName": "Greek Salad with grilled chicken and vinaigrette dressing",
+        "price": "20,00 zł"
       },
       {
-        "name": "Z wędzonym łososiem ",
+        "name": "Z wędzonym łososiem",
         "description": "łosoś wędzony, jajko w koszulce, mix sałat, pomidorki, ogórek, grzanki, sos musztardowo-miodowy",
-        "price": "18zł"
+        "engName": "Smoked salmon salad with poached egg, salad mix, cherry tomatoes, cucumber, bread croutons, honey mustard dressing",
+        "price": "21,00 zł"
       },
       {
         "name": "Sałatka Cezar",
-        "description": "z czosnkową grzanką - sałata rzymska,parmezan,grzanka,sos majonezowo-musztardowy",
-        "price": "17zł"
+        "description": "z grzanką czosnkową, sałatą rzymską, parmezanem i sosem majonezowo-musztardowym",
+        "engName": "Casar salad with garlic toast, romaine lettuce, parmesan cheese and mayonnaise-mustard sauce",
+        "price": "19,00 zł"
       },
       {
-        "name": "Z serem Halloumi",
-        "description": "grillowany ser Halloumi, gruszka, mix sałat, orzechy włoskie i dressing z musem z pomarańczy",
-        "price": "20zł"
+        "name": "Z grillowanym serem",
+        "description": "grillowany ser Halloumi, gruszka, mix sałat, orzechy włoskie, dressing z musem z pomarańczy",
+        "engName": "With grilled Halloumi cheese, pear, salad mix, walnuts, orange mousse dressing",
+        "price": "20,00 zł"
       }
     ]
   },
@@ -30,32 +34,394 @@
       {
         "name": "Rosół",
         "description": "z makaronem",
-        "price": "11zł"
+        "engName": "Chicken soup with noodles",
+        "price": "12,00 zł"
       },
       {
         "name": "Pomidorowa",
-        "description": "z makaronem zabielana",
-        "price": "10zł"
+        "description": "z makaronem i śmietaną",
+        "engName": "Tomato soup with noodles with cream",
+        "price": "11,00 zł"
       },
       {
         "name": "Kremowa",
         "description": "z batatów z ricottą",
-        "price": "12zł"
+        "engName": "Sweet potato cream soup with ricotta cheese",
+        "price": "15,00 zł"
       },
       {
         "name": "Żurek",
         "description": "z jajkiem i białą kiełbasą",
-        "price": "13zł"
+        "engName": "“Żurek” – sour soup with white sausage and egg",
+        "price": "14,00 zł"
       },
       {
         "name": "Flaczki wołowe",
         "description": "",
-        "price": "13zł"
+        "engName": "“Flaczki” – beef tripe soup",
+        "price": "14,00 zł"
       },
       {
         "name": "Zupa gulaszowa",
         "description": "",
-        "price": "14zł"
+        "engName": "Goulash soup",
+        "price": "15,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Zestawy drobiowe",
+    "items": [
+      {
+        "name": "Wątróbka drobiowa",
+        "description": "z aromatyczną cebulką, ziemniakami i zest. surówek",
+        "engName": "Chicken liver with onion, potatoes and set of side salads",
+        "price": "23,00 zł"
+      },
+      {
+        "name": "Kotlet drobiowy",
+        "description": "w złocistej panierce z ziemniakami, koperkiem i zest. surówek",
+        "engName": "Chicken breaded cutlet with dill potatoes and set of side salads",
+        "price": "26,00 zł"
+      },
+      {
+        "name": "Roladka z fileta drobiowego",
+        "description": "z szynką, serem, frytkami i zest. surówek",
+        "engName": "Chicken roulade with ham and cheese, fries and set of side salads",
+        "price": "30,00 zł"
+      },
+      {
+        "name": "Pieczony indyk",
+        "description": "z sosem żurawinowym, ryżem i mixem sałat",
+        "engName": "Roasted turkey with cranberry sauce, rice, and mixed lettuce",
+        "price": "30,00 zł"
+      },
+      {
+        "name": "Gyros z kurczaka",
+        "description": "z frytkami, surówką i sosem tzatziki",
+        "engName": "Chicken Gyros with fries, set of side salads and tzatziki dip",
+        "price": "25,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Zestawy wołowe i wieprzowe",
+    "items": [
+      {
+        "name": "Duszona wołowina",
+        "description": "w sosem z czerwonym winem, ziemniaki z koperkiem i warzywa",
+        "engName": "Braised beef with red wine sauce, dill potatoes and vegetables",
+        "price": "37,00 zł"
+      },
+      {
+        "name": "Zrazy zawijane wołowe",
+        "description": "z boczkiem, ogórkiem i cebulką w aromatycznym sosie z zielonym pieprzem i zest. surówek",
+        "engName": "Beef roulade wrapped with bacon, cucumber and onion in aromatic green pepper sauce and a set of salads",
+        "price": "38,00 zł"
+      },
+      {
+        "name": "Kotlet mielony",
+        "description": "z ziemniakami z koperkiem i zest. surówek",
+        "engName": "Frikadeller with potatoes and set of side salads",
+        "price": "23,00 zł"
+      },
+      {
+        "name": "Kotlet schabowy",
+        "description": "panierowany, z ziemniakami, koperkiem i zest. surówek",
+        "engName": "Pork breaded cutlet with dill potatoes and set of side salads",
+        "price": "27,00 zł"
+      },
+      {
+        "name": "Karkówka po cygańsku",
+        "description": "w sosie z warzywami z ziemniakami opiekanymi i zest. surówek",
+        "engName": "Roasted pork neck with gravy, roasted potatoes and set of side salads",
+        "price": "32,00 zł"
+      },
+      {
+        "name": "Żeberka pieczone",
+        "description": "w kapuście z frytkami i zest. surówek",
+        "engName": "Ribs baked in cabbage with fries and a set of salads",
+        "price": "30,00 zł"
+      },
+      {
+        "name": "Polędwiczki wieprzowe",
+        "description": "w sosie borowikowym z ziemniakami puree z koperkiem i zest. surówek",
+        "engName": "Pork tenderloin in boletus sauce with mashed potatoes, dill and a set of salads",
+        "price": "30,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Pasty i makarony",
+    "items": [
+      {
+        "name": "Penne z kurczakiem",
+        "description": "w sosie winnym z pomidorkami i szpinakiem",
+        "engName": "Chicken penne with wine sauce, cherry tomatoes and spinach",
+        "price": "22,00 zł"
+      },
+      {
+        "name": "Spaghetti bolognese",
+        "description": "z sosem mięsno-pomidorowym",
+        "engName": "Spaghetti Bolognese with meat and tomato sauce",
+        "price": "22,00 zł"
+      },
+      {
+        "name": "Pappardelle z łososiem",
+        "description": "łosoś wędzony, sos śmietanowy, szpinak i suszone pomidorki",
+        "engName": "Pappardelle with salmon with smoked salmon, cream sauce, spinach and dried tomatoes",
+        "price": "25,00 zł"
+      },
+      {
+        "name": "Tagliatelle z boczkiem ",
+        "description": "w sosie gorgonzola z wędzonym boczkiem",
+        "engName": "Tagliatelle with shrimps with parsley, oregano, cherry tomatoes and cream sauce",
+        "price": "26,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Zestawy rybne",
+    "items": [
+      {
+        "name": "Filet z dorsza",
+        "description": "w panierce na złoto z frytkami i zest. surówek",
+        "engName": "Cod fillet in breadcrumbs, with fries and set of side salads",
+        "price": "32,00 zł"
+      },
+      {
+        "name": "Pstrąg pieczony",
+        "description": "z ziemniakami z koperkiem i mixem sałat",
+        "engName": "Roasted Trout with dill potatoes and salad mix",
+        "price": "10zł/100g"
+      },
+      {
+        "name": "Łosoś pieczony",
+        "description": "pod migdałową kruszonką z frytkami i mixem sałat",
+        "engName": "Salmon baked under an almond crumble with fries and a mix of lettuces",
+        "price": "32,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Pierogi i placki",
+    "items": [
+      {
+        "name": "Pierogi ruskie",
+        "description": "z masłem lub ze skwarkami",
+        "engName": "Dumplings with potatoes and cottage cheese stuffing, butter or pork greaves",
+        "price": "17,00 zł"
+      },
+      {
+        "name": "Pierogi z mięsem",
+        "description": "",
+        "engName": "Dumplings with meat stuffing",
+        "price": "19,00 zł"
+      },
+      {
+        "name": "Pierogi z kapustą",
+        "description": "i pieczarkami",
+        "engName": "Dumplings with cabbage and mushroom stuffing",
+        "price": "17,00 zł"
+      },
+      {
+        "name": "Placki po węgiersku",
+        "description": "z gulaszem wieprzowym i surówką z białej kapusty",
+        "engName": "Potato pancakes with pork goulash and cabbage salad",
+        "price": "25,00 zł"
+      },
+      {
+        "name": "Placki ziemniaczane",
+        "description": "ze śmietaną i surówką",
+        "engName": "Potato pancakes with cream and side salad",
+        "price": "14,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Dania dla dzieci (1/2 porcji)",
+    "items": [
+      {
+        "name": "Rosół",
+        "description": "z makaronem",
+        "engName": "Chicken soup with noodles",
+        "price": "7,00 zł"
+      },
+      {
+        "name": "Zupa pomidorowa",
+        "description": "z makaronem",
+        "engName": "Tomato soup",
+        "price": "7,00 zł"
+      },
+      {
+        "name": "Nuggetsy z kurczaka",
+        "description": "z frytkami i surówką",
+        "engName": "Chicken nuggets with fries and side salad",
+        "price": "17,00 zł"
+      },
+      {
+        "name": "Pulpeciki w sosie",
+        "description": "z ziemniakami z koperkiem i surówką",
+        "engName": "Meatballs with sauce, dill potatoes and side salad",
+        "price": "17,00 zł"
+      },
+      {
+        "name": "Spaghetti bolognese",
+        "description": "",
+        "engName": "Spaghetti bolognese",
+        "price": "15,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Desery i ciasta",
+    "items": [
+      {
+        "name": "Puchar lodowy",
+        "description": "z owocami i bitą śmietana",
+        "engName": "Ice creams with fruits and whipped cream",
+        "price": "10,00 zł"
+      },
+      {
+        "name": "Naleśniki",
+        "description": "z dżemem lub serem i owocami",
+        "engName": "Pancakes with jam or cottage cheese and fruits",
+        "price": "12,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Napoje gorące",
+    "items": [
+      {
+        "name": "Herbata",
+        "description": "czarna, owocowa lub zielona",
+        "engName": "Tea black, fruit or green",
+        "price": "6,00 zł"
+      },
+      {
+        "name": "Kawa",
+        "description": "parzona lub rozpuszczalna",
+        "engName": "Coffee brewed or instant",
+        "price": "7,00 zł"
+      },
+      {
+        "name": "Kawa czarna",
+        "description": "",
+        "engName": "Black Coffee",
+        "price": "8,00 zł"
+      },
+      {
+        "name": "Kawa Latte",
+        "description": "",
+        "engName": "Latte",
+        "price": "9,00 zł"
+      },
+      {
+        "name": "Kawa Cappuccino",
+        "description": "",
+        "engName": "Cappucino",
+        "price": "10,00 zł"
+      },
+      {
+        "name": "Mleko do kawy",
+        "description": "",
+        "engName": "Coffee milk",
+        "price": "2,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Napoje zimne",
+    "items": [
+      {
+        "name": "Woda niegazowana",
+        "description": "",
+        "engName": "Still water",
+        "price": "5,00 zł"
+      },
+      {
+        "name": "Woda gazowana",
+        "description": "",
+        "engName": "Sparkling water",
+        "price": "5,00 zł"
+      },
+      {
+        "name": "Sok",
+        "description": "pomarańczowy, jabłkowy lub czarna porzeczka",
+        "engName": "Juice orange, apple or blackcurrant",
+        "price": "6,00 zł"
+      },
+      {
+        "name": "Napój gazowany",
+        "description": "Coca-Cola, Fanta lub Sprite",
+        "engName": "Coca-Cola, Fanta, Sprite",
+        "price": "6,00 zł"
+      }
+    ]
+  },
+  {
+    "category": "Piwa",
+    "items": [
+      {
+        "name": "Lech/ Tyskie (0.33L)",
+        "description": "",
+        "engName": "",
+        "price": "5,00 zł"
+      },
+      {
+        "name": "Perła eksport/ chmielowa (0,5L)",
+        "description": "",
+        "engName": "",
+        "price": "7,00 zł"
+      },
+      {
+        "name": "Leżajsk (0,5L)",
+        "description": "",
+        "engName": "",
+        "price": "8,00 zł"
+      },
+      {
+        "name": "Zatecki (0,5L)",
+        "description": "",
+        "engName": "",
+        "price": "7,00 zł"
+      },
+      {
+        "name": "Warka (0,5L)",
+        "description": "",
+        "engName": "",
+        "price": "8,00 zł"
+      },
+      {
+        "name": "Tyskie (0,5L)",
+        "description": "",
+        "engName": "",
+        "price": "8,00 zł"
+      },
+      {
+        "name": "Somersby (0,4L)",
+        "description": "",
+        "engName": "",
+        "price": "8,00 zł"
+      },
+      {
+        "name": "Bezalkoholowy Żywiec",
+        "description": "",
+        "engName": "Żywiec non-alcoholic beer",
+        "price": "8,00 zł"
+      },
+      {
+        "name": "Lech",
+        "description": "",
+        "engName": "",
+        "price": "9,00 zł"
+      },
+      {
+        "name": "Żywiec",
+        "description": "",
+        "engName": "",
+        "price": "9,00 zł"
       }
     ]
   }
