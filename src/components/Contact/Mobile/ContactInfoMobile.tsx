@@ -6,10 +6,17 @@ import {
   ContactLink,
   ContactLinkWrapper,
   ContactSectionContainer,
+  FooterIconLink,
+  FooterIconsWrapper,
   LinkBolderText,
 } from "./MobileContactPageElements";
 import openHours from "../../../data/openHours.json";
-import { AiFillMail, AiFillPhone } from "react-icons/ai";
+import {
+  AiFillMail,
+  AiFillPhone,
+  AiOutlineFacebook,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 import GoogleMapBoxContactMobile from "./GoogleMapBoxContactMobile";
 
 const captionText =
@@ -35,6 +42,23 @@ const ContactInfoMobile = () => {
             <LinkBolderText> kontakt@restauracja-polonia.com</LinkBolderText>
           </ContactLink>
         </ContactLinkWrapper>
+        <FooterIconsWrapper>
+          <FooterIconLink
+            href="https://www.facebook.com/Restauracja-Polonia-101206695074132/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineFacebook size={42} />
+          </FooterIconLink>
+
+          <FooterIconLink
+            href="https://www.instagram.com/restauracja.polonia/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineInstagram size={42} />
+          </FooterIconLink>
+        </FooterIconsWrapper>
       </ContactHeaderWrapper>
       <GoogleMapBoxContactMobile />
     </ContactSectionContainer>

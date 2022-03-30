@@ -1,5 +1,10 @@
 import React from "react";
-import { AiFillPhone, AiFillMail } from "react-icons/ai";
+import {
+  AiFillPhone,
+  AiFillMail,
+  AiOutlineFacebook,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 import GoogleMapBox from "../../Home/Desktop/LocationSection/GoogleMapBox";
 import openHours from "../../../data/openHours.json";
 import {
@@ -9,6 +14,8 @@ import {
   ContactLink,
   ContactLinkWrapper,
   ContactSectionContainer,
+  FooterIconLink,
+  FooterIconsWrapper,
   LinkBolderText,
 } from "./ContactPageElements";
 
@@ -36,6 +43,23 @@ const ContactInfo = () => {
             <LinkBolderText> kontakt@restauracja-polonia.com</LinkBolderText>
           </ContactLink>
         </ContactLinkWrapper>
+        <FooterIconsWrapper>
+          <FooterIconLink
+            href="https://www.facebook.com/Restauracja-Polonia-101206695074132/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineFacebook size={42} />
+          </FooterIconLink>
+
+          <FooterIconLink
+            href="https://www.instagram.com/restauracja.polonia/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineInstagram size={42} />
+          </FooterIconLink>
+        </FooterIconsWrapper>
       </ContactHeaderWrapper>
     </ContactSectionContainer>
   );

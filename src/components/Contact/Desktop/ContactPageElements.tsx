@@ -68,3 +68,18 @@ export const LinkBolderText = styled.span`
   font-size: ${BODY};
   font-weight: 600;
 `;
+
+export const FooterIconsWrapper = styled.div`
+  display: flex;
+  gap: 25px;
+  margin-top: 40px;
+`;
+
+export const FooterIconLink = styled.a`
+  text-decoration: none;
+  color: ${DARK_BACKGROUND_COLOR};
+  transition: color 0.2s;
+  &:hover {
+    color: ${POLONIA_DARKER_YELLOW_COLOR};
+  }
+`;

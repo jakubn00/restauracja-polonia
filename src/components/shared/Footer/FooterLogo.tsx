@@ -22,7 +22,7 @@ const FooterLogo = () => {
         </FooterIconLink>
 
         <FooterIconLink
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/restauracja.polonia/"
           target="_blank"
           rel="noopener noreferrer"
         >
