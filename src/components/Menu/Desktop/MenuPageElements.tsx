@@ -73,3 +73,7 @@ export const MenuItemLine = styled.div`
   background-color: ${GRAY_COLOR};
   opacity: 0.2;
 `;
+
+export const MenuFrame = styled.iframe`
+  margin-top: 100px !important;
+`;

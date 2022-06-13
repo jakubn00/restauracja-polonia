@@ -49,6 +49,29 @@ export const MobileNavbarLink = styled(Link)<Props>`
   }
 `;
 
+export const MobileOrderOnlineNavbarLink = styled(Link)<Props>`
+  color: ${DARK_BACKGROUND_COLOR};
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: ${POLONIA_YELLOW_COLOR};
+  padding: 0 1.9rem;
+  height: 64px;
+  cursor: pointer;
+  font-size: ${FUTURA_LINK};
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 1px solid ${POLONIA_YELLOW_COLOR};
+  border-radius: 12px;
+  &:active {
+    color: #15cdfc;
+  }
+  &:hover {
+    color: #c5c5c5;
+    transition: 0.2s;
+  }
+`;
+
 export const MobileNavbarImage = styled.img`
   width: 4rem;
   height: 4rem;

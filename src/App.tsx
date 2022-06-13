@@ -9,6 +9,7 @@ import PageNotFound from "./404-page";
 import Menu from "./components/Menu";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import OrderOnline from "./components/OrderOnline";
 
 function App() {
   const isTabletOrMobile = useMediaQuery({ maxWidth: 1023 });
@@ -31,6 +32,10 @@ function App() {
         <Route
           path="/kontakt"
           element={<Contact isMobile={isTabletOrMobile} />}
+        />
+        <Route
+          path="/zamow-online"
+          element={<OrderOnline isMobile={isTabletOrMobile} />}
         />
       </Routes>
       <CookieConsent

@@ -4,6 +4,7 @@ import CloseIcon from "../../Buttons/CloseIcon";
 import {
   CloseButtonWrapper,
   MobileNavBarLink,
+  MobileOrderOnlineNavbarLink,
   OutsideSpace,
   SideMenuContainer,
 } from "./MobileNavbarElements";
@@ -44,6 +45,12 @@ const SideMenu: React.FC<IProps> = ({ isOpen, onClose }) => {
         <MobileNavBarLink isActive={isLinkActive("/kontakt")} to="/kontakt">
           KONTAKT
         </MobileNavBarLink>
+        <MobileOrderOnlineNavbarLink
+          isActive={isLinkActive("/zamow-online")}
+          to="/zamow-online"
+        >
+          ZAMÓW ONLINE
+        </MobileOrderOnlineNavbarLink>
       </SideMenuContainer>
     </React.Fragment>
   );

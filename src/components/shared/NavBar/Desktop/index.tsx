@@ -4,6 +4,7 @@ import {
   NavbarImage,
   NavbarLink,
   NavMenu,
+  OrderOnlineNavbarLink,
 } from "./NavbarElements";
 import logoWhite from "../../../../images/logo-white.svg";
 import logo from "../../../../images/logo.svg";
@@ -57,6 +58,13 @@ const DesktopNavbar: React.FC<IProps> = ({ dark = false }) => {
           >
             KONTAKT
           </NavbarLink>
+          <OrderOnlineNavbarLink
+            dark={dark ? 1 : 0}
+            isActive={isLinkActive("/zamow-online")}
+            to="/zamow-online"
+          >
+            ZAMÓW ONLINE
+          </OrderOnlineNavbarLink>
         </NavMenu>
       </NavbarContainer>
     </React.Fragment>

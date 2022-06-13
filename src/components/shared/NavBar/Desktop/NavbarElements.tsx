@@ -20,7 +20,7 @@ export const NavbarContainer = styled.nav<Props>`
   display: flex;
   justify-content: space-between;
   z-index: 1000;
-  padding: 0.5rem calc((100vw - 1200px) / 2);
+  padding: 0.5rem calc((100vw - 1400px) / 2);
   justify-content: flex-start;
   transition: 0.5s;
 `;
@@ -45,6 +45,29 @@ export const NavbarLink = styled(Link)<Props>`
   }
   &:hover {
     color: ${(props) => (props.dark === 1 ? "#d5d5d5" : "#c5c5c5")};
+  }
+`;
+
+export const OrderOnlineNavbarLink = styled(Link)<Props>`
+  color: ${DARK_BACKGROUND_COLOR};
+  display: flex;
+  background-color: ${POLONIA_YELLOW_COLOR};
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1.9rem;
+  height: 75%;
+  cursor: pointer;
+  font-size: ${FUTURA_LINK};
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 1px solid ${POLONIA_YELLOW_COLOR};
+  border-radius: 12px;
+  &:active {
+    color: #15cdfc;
+  }
+  &:hover {
+    color: #c5c5c5;
+    transition: 0.2s;
   }
 `;
 
