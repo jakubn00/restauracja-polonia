@@ -16,8 +16,8 @@ const HeroSection = () => {
   const routeToContact = () => {
     history("/kontakt");
   };
-  const routeToMenu = () => {
-    history("/menu");
+  const routeToOrderOnline = () => {
+    history("/zamow-online");
   };
   return (
     <HeroSectionContainer>
@@ -36,7 +36,11 @@ const HeroSection = () => {
               title={"Sprawdź gdzie jesteśmy"}
               onClick={routeToContact}
             />
-            <LargeButton primary title={"Zobacz menu"} onClick={routeToMenu} />
+            <LargeButton
+              primary
+              title={"Zamów online"}
+              onClick={routeToOrderOnline}
+            />
           </ButtonGroup>
         </HeroHeader>
       </Header>

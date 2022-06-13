@@ -14,6 +14,7 @@ const FooterLinks = () => {
       <FooterParagraphLink to="/galeria">Galeria</FooterParagraphLink>
       <FooterParagraphLink to="/hotel">Hotel</FooterParagraphLink>
       <FooterParagraphLink to="/kontakt">Kontakt</FooterParagraphLink>
+      <FooterParagraphLink to="/zamow-online">Zamów online</FooterParagraphLink>
     </FooterColumnContainer>
   );
 };
