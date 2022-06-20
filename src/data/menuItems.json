@@ -24,7 +24,7 @@
         "name": "Z grillowanym serem",
         "description": "grillowany ser Halloumi, gruszka, mix sałat, orzechy włoskie, dressing z musem z pomarańczy",
         "engName": "With grilled Halloumi cheese, pear, salad mix, walnuts, orange mousse dressing",
-        "price": "20,00 zł"
+        "price": "22,00 zł"
       }
     ]
   },
@@ -76,13 +76,13 @@
         "name": "Wątróbka drobiowa",
         "description": "z aromatyczną cebulką, ziemniakami i zest. surówek",
         "engName": "Chicken liver with onion, potatoes and set of side salads",
-        "price": "23,00 zł"
+        "price": "25,00 zł"
       },
       {
         "name": "Kotlet drobiowy",
         "description": "w złocistej panierce z ziemniakami, koperkiem i zest. surówek",
         "engName": "Chicken breaded cutlet with dill potatoes and set of side salads",
-        "price": "26,00 zł"
+        "price": "28,00 zł"
       },
       {
         "name": "Roladka z fileta drobiowego",
@@ -94,7 +94,7 @@
         "name": "Pieczony indyk",
         "description": "z sosem żurawinowym, ryżem i mixem sałat",
         "engName": "Roasted turkey with cranberry sauce, rice, and mixed lettuce",
-        "price": "30,00 zł"
+        "price": "32,00 zł"
       },
       {
         "name": "Gyros z kurczaka",
@@ -111,19 +111,19 @@
         "name": "Duszona wołowina",
         "description": "w sosem z czerwonym winem, ziemniaki z koperkiem i warzywa",
         "engName": "Braised beef with red wine sauce, dill potatoes and vegetables",
-        "price": "37,00 zł"
+        "price": "40,00 zł"
       },
       {
         "name": "Zrazy zawijane wołowe",
         "description": "z boczkiem, ogórkiem i cebulką w aromatycznym sosie z zielonym pieprzem i zest. surówek",
         "engName": "Beef roulade wrapped with bacon, cucumber and onion in aromatic green pepper sauce and a set of salads",
-        "price": "38,00 zł"
+        "price": "39,00 zł"
       },
       {
-        "name": "Kotlet mielony",
+        "name": "Sznycel wieprzowo-wołowy",
         "description": "z ziemniakami z koperkiem i zest. surówek",
-        "engName": "Frikadeller with potatoes and set of side salads",
-        "price": "23,00 zł"
+        "engName": "Pork and beef schnitzel with potatoes and set of side salads",
+        "price": "27,00 zł"
       },
       {
         "name": "Kotlet schabowy",
@@ -135,19 +135,19 @@
         "name": "Karkówka po cygańsku",
         "description": "w sosie z warzywami z ziemniakami opiekanymi i zest. surówek",
         "engName": "Roasted pork neck with gravy, roasted potatoes and set of side salads",
-        "price": "32,00 zł"
+        "price": "35,00 zł"
       },
       {
         "name": "Żeberka pieczone",
         "description": "w kapuście z frytkami i zest. surówek",
         "engName": "Ribs baked in cabbage with fries and a set of salads",
-        "price": "30,00 zł"
+        "price": "32,00 zł"
       },
       {
         "name": "Polędwiczki wieprzowe",
         "description": "w sosie borowikowym z ziemniakami puree z koperkiem i zest. surówek",
         "engName": "Pork tenderloin in boletus sauce with mashed potatoes, dill and a set of salads",
-        "price": "30,00 zł"
+        "price": "32,00 zł"
       }
     ]
   },
@@ -158,24 +158,24 @@
         "name": "Penne z kurczakiem",
         "description": "w sosie winnym z pomidorkami i szpinakiem",
         "engName": "Chicken penne with wine sauce, cherry tomatoes and spinach",
-        "price": "22,00 zł"
+        "price": "25,00 zł"
       },
       {
         "name": "Spaghetti bolognese",
         "description": "z sosem mięsno-pomidorowym",
         "engName": "Spaghetti Bolognese with meat and tomato sauce",
-        "price": "22,00 zł"
+        "price": "25,00 zł"
       },
       {
         "name": "Pappardelle z łososiem",
         "description": "łosoś wędzony, sos śmietanowy, szpinak i suszone pomidorki",
         "engName": "Pappardelle with salmon with smoked salmon, cream sauce, spinach and dried tomatoes",
-        "price": "25,00 zł"
+        "price": "27,00 zł"
       },
       {
-        "name": "Tagliatelle z boczkiem ",
-        "description": "w sosie gorgonzola z wędzonym boczkiem",
-        "engName": "Tagliatelle with shrimps with parsley, oregano, cherry tomatoes and cream sauce",
+        "name": "Gnocchi",
+        "description": "w sosie śmietanowym z gorgonzolą",
+        "engName": "Gnocchi in cream sauce with gorgonzola",
         "price": "26,00 zł"
       }
     ]
@@ -199,7 +199,7 @@
         "name": "Łosoś pieczony",
         "description": "pod migdałową kruszonką z frytkami i mixem sałat",
         "engName": "Salmon baked under an almond crumble with fries and a mix of lettuces",
-        "price": "32,00 zł"
+        "price": "36,00 zł"
       }
     ]
   },
@@ -228,13 +228,13 @@
         "name": "Placki po węgiersku",
         "description": "z gulaszem wieprzowym i surówką z białej kapusty",
         "engName": "Potato pancakes with pork goulash and cabbage salad",
-        "price": "25,00 zł"
+        "price": "27,00 zł"
       },
       {
         "name": "Placki ziemniaczane",
         "description": "ze śmietaną i surówką",
         "engName": "Potato pancakes with cream and side salad",
-        "price": "14,00 zł"
+        "price": "17,00 zł"
       }
     ]
   },
@@ -287,6 +287,12 @@
         "description": "z dżemem lub serem i owocami",
         "engName": "Pancakes with jam or cottage cheese and fruits",
         "price": "12,00 zł"
+      },
+      {
+        "name": "Ciasta własnej produkcji",
+        "description": "proszę pytać kelnera",
+        "engName": "Homemade cakes (ask the waiter/waitress)",
+        "price": ""
       }
     ]
   },
