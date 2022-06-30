@@ -15,6 +15,9 @@ const MobileFooterLinks = () => {
       <FooterParagraphLink to="/hotel">Hotel</FooterParagraphLink>
       <FooterParagraphLink to="/kontakt">Kontakt</FooterParagraphLink>
       <FooterParagraphLink to="/zamow-online">Zamów online</FooterParagraphLink>
+      <FooterParagraphLink to="/dania-dnia">
+        Oferta tygodnia
+      </FooterParagraphLink>
     </FooterColumnContainer>
   );
 };

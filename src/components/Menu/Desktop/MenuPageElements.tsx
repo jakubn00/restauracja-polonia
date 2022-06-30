@@ -19,7 +19,7 @@ export const MenuDesktopPageContainer = styled.div`
 export const MenuItemsContainer = styled.div`
   min-height: 90vh;
   width: 50%;
-  padding-top: 125px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -76,4 +76,11 @@ export const MenuItemLine = styled.div`
 
 export const MenuFrame = styled.iframe`
   margin-top: 100px !important;
+`;
+
+export const ButtonGroup = styled.div`
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 125px;
 `;

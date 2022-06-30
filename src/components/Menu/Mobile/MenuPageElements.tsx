@@ -22,7 +22,7 @@ export const MenuItemsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 50px;
 `;
 
 export const MenuItemWrapper = styled.div`
@@ -74,3 +74,12 @@ export const MenuItemLine = styled.div`
   background-color: ${GRAY_COLOR};
   opacity: 0.2;
 `;
+
+export const ButtonGroupMobile = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 125px;
+`;
+

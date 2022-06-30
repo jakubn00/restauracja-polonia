@@ -10,6 +10,7 @@ import Menu from "./components/Menu";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import OrderOnline from "./components/OrderOnline";
+import WeekOffer from "./components/WeekOffer";
 
 function App() {
   const isTabletOrMobile = useMediaQuery({ maxWidth: 1023 });
@@ -36,6 +37,10 @@ function App() {
         <Route
           path="/zamow-online"
           element={<OrderOnline isMobile={isTabletOrMobile} />}
+        />
+        <Route
+          path="/dania-dnia"
+          element={<WeekOffer isMobile={isTabletOrMobile} />}
         />
       </Routes>
       <CookieConsent
