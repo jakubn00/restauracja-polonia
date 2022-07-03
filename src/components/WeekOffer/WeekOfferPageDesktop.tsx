@@ -20,7 +20,7 @@ const WeekOfferPageDesktop = () => {
       <MenuDesktopPageContainer>
         <Navbar />
         <WeeklyOfferImage
-          src={process.env.PUBLIC_URL + "/images/dania-dnia.png"}
+          src={process.env.PUBLIC_URL + `/images/dania-dnia.png?${Date.now()}`}
         />
         <MediumButton
           title={"Pobierz obraz"}

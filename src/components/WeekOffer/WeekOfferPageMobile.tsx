@@ -19,7 +19,7 @@ const WeekOfferPageMobile = () => {
     <MenuMobilePageContainer>
       <MobileNavbar />
       <WeeklyOfferImageMobile
-        src={process.env.PUBLIC_URL + "/images/dania-dnia.png"}
+        src={process.env.PUBLIC_URL + `/images/dania-dnia.png?${Date.now()}`}
       />
       <MediumButton
         title={"Pobierz obraz"}
